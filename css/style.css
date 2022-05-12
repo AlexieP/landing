@@ -1,0 +1,80 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url("components/card.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner-selection {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.tastingtable.com/img/gallery/20-different-types-of-coffee-explained/intro-1646842160.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+}
+
+.banner-selection h1 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.banner-selection h2 {
+  color: white;
+  font-size: 23px;
+  font-weight: 100;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.btn-cta {
+  display: inline-block;
+  background-color: #DAB88B;
+  color: white;
+  padding: 16px 36px;
+  border-radius: 50px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: #3b3b3b;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #3b3b3b;
+  color: grey;
+}
+
+.footer a {
+  font-size: 30px;
+  color: #DAB88B;
+}
+/* Custom design below! */

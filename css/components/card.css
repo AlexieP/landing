@@ -1,0 +1,28 @@
+.card {
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+  box-shadow: 0 0 5px #3b3b3b;
+  display: block;
+  background-color: white;
+  color: #3b3b3b;
+}
+
+.card img {
+  height: 100px;
+  text-align: center;
+}
+
+.card h3 {
+  font-family: 'Oswald', sans-serif, 500;
+}
+
+.card p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.card b {
+  font-family: 'Cormorant Garamond', serif, 700;
+}
